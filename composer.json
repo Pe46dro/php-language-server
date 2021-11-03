@@ -69,5 +69,24 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+      "extra": {
+    "violinist": {
+      "allow_updates_beyond_constraint": 1,
+      "assignees": [],
+      "blocklist": [],
+      "branch_prefix": "",
+      "bundled_packages": {},
+      "commit_message_convention": "",
+      "default_branch": "",
+      "number_of_concurrent_updates": 0,
+      "one_pull_request_per_package": 0,
+      "run_scripts": 1,
+      "security_updates_only": 0,
+      "timeframe_disallowed": 0,
+      "timezone": "+0000",
+      "update_dev_dependencies": 1,
+      "update_with_dependencies": 1
+    }
+  }
 }
